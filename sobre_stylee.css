@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    font-size: 1.1em;
+}
+
+body{
+    background-color: #030029da; 
+}
+
+/* formatação do cabeçalho do site*/
+
+header{
+    background: rgb(0,149,168);
+    background: linear-gradient(251deg, rgba(0,149,168,0.5956757703081232) 0%, rgba(0,149,168,1) 9%, rgba(87,185,198,1) 11%, rgba(255,255,255,1) 25%);
+    align-items: center;
+    width: 100%;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 8vh;
+    text-align: center;
+    font-size: 1.6em;
+}
+header>a, a:visited{
+    align-items: center;  
+    font-size: 1.5em;
+    text-decoration: none;
+    color:rgb(0, 65, 119) ;
+    line-height: 8vh;
+}
+
+
+/* formatação da barra de navegação do site*/
+#nav_bar{
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+ul li{
+    float: left;
+    font-size: 1.9vh;
+    background-color: rgba(255, 250, 250, 0);
+    width:32.99vw;
+    text-align: center;
+    list-style: none;
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px solid #dbdbdb;
+    margin: auto;
+    display: block;
+}
+
+a,a:visited.menu_vertical{
+    display: block;
+    padding: 0.2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #004852;
+    margin: auto;
+}
+
+
+
+
+#principal{
+    margin: 15px ;
+    width: 920px;
+    padding: 15px;
+
+}
+#postagem{
+    background-color:white;
+    
+
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:#030029da;
+    color: white;
+}
+#postagem{
+    clear: both;
+    width: 660px;
+    padding: 0px;
+    margin: 0px;
+
+
+}

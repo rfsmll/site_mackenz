@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color:rgb(0, 3, 26) ;
+    
+}
+
+/* formatação do cabeçalho do site*/
+
+header{
+    background: rgb(0,149,168);
+    background: linear-gradient(251deg, rgba(0,149,168,0.5956757703081232) 0%, rgba(0,149,168,1) 9%, rgba(87,185,198,1) 11%, rgba(255,255,255,1) 25%);
+    align-items: center;
+    width: 100%;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 8vh;
+    text-align: center;
+    font-size: 1.6em;
+}
+header>a, a:visited{
+    align-items: center;  
+    font-size: 1.5em;
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+    line-height: 8vh;
+    background-color: #010924;
+}
+
+
+/* formatação da barra de navegação do site*/
+#nav_bar{
+    width: 80vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+ul li{
+    float: left;
+    font-size: 1.9vh;
+    background-color: rgba(199, 9, 9, 0);
+    width:32.99vw;
+    color: white;
+    text-align: center;
+    list-style: none;
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px solid #dbdbdb;
+    margin: auto;
+    display: block;
+}
+
+a,a:visited.menu_vertical{
+    display: block;
+    padding: 0.2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+
+.galeria{
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+    margin-left: 28%;
+    left: calc(50% - 330px);
+
+}
+
+.foto{
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 0px;
+    width: 150px;
+    height: 300px;
+    padding: 8px;
+    background-color: black;
+    border-radius: 8px;
+    transition: 1s ease-in-out;
+    box-shadow: rgba(0,0,0,0.25) 0px 5px 25px;
+
+}
+.foto:nth-child(1){
+    background-color: #092a96;
+}
+.foto:nth-child(2){
+    background-color: #032185;
+}
+.foto:nth-child(3){
+    background-color: #041858;
+}
+.foto:nth-child(4){
+    background-color: #001044;
+}
+.foto:nth-child(5){
+    background-color: #000e3a;
+}
+.foto:nth-child(6){
+    background-color: #190244f5;
+}
+
+
+
+.foto:hover{
+    transform: translateY(-16px);
+    color: white;
+}
+
+.foto:hover ~.foto{
+    left: 55px;
+}
+
